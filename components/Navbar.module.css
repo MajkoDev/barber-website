@@ -1,8 +1,43 @@
+.header {
+  display: flex;
+  flex: 1;
+  padding: 0.7rem 0;
+  margin: 0 3rem;
+  border-bottom: 1px solid #eaeaea;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.logoLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.logoIcon {
+  margin-right: 3px;
+  font-size: 2.1rem;
+}
+
 .navbar {
-    display: flex;
-    flex: 1;
-    padding: .7rem 0;
-    border-bottom: 1px solid #eaeaea;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+}
+
+.navItem {
+  list-style-type: none;
+  margin: 0 0.75rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+
+  cursor: pointer;
+}
+
+.mobile {
+  display: hidden;
+}
