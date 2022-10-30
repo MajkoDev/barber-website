@@ -6,12 +6,12 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
-        <meta name="description" content="Barber & Shop" />
-        <link rel="icon" href="/scissors.ico" />
+        <title>Barber TT</title>
+        <meta name="description" content="Barber in Trnava" />
+        <link rel="icon" href="../public/favicon.ico" />
       </Head>
       <Navbar />
-      {children}
+      <main>{children}</main>
       <Footer />
     </>
   );

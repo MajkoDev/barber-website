@@ -1,10 +1,9 @@
-import Link from "next/link";
-import styles from "./Footer.module.css";
-
-export default function Footer() {
+const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      <h2>Footer</h2>
-    </footer>
+    <div>
+      <h2 className="bg-gray-400 text-white text-xl font-thin">Footer</h2>
+    </div>
   );
-}
+};
+
+export default Footer;
