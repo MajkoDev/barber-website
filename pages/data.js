@@ -1,24 +1,25 @@
 // import images
+
 // import icons
 
 export const navData = {
   items: [
     { href: "/", name: "Domov" },
-    { href: "/about", name: "O nás" },
-    { href: "/services", name: "Ponuka" },
-    { href: "/barbers", name: "Barberi" },
+    { href: "#about", name: "O nás" },
+    { href: "#services", name: "Ponuka" },
+    { href: "#barbers", name: "Barberi" },
   ],
 };
 
 export const navButton = {
   items: [
-    { href: "/booking", name: "Rezervácia" },
-    { href: "/contact", name: "Kontakt" },
+    { href: "#booking", name: "Rezervácia" },
+    { href: "#contact", name: "Kontakt" },
   ],
 };
 
 export const heroData = {
-  title: "A small business is only was good as its tools.",
+  title: "trnavsky barber",
   subtitle:
     "We’re different. Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.",
   btnPrimaryText: "zisti viac o nás",
@@ -38,7 +39,7 @@ export const valueData = {
   title: "Gain more insight into how people use your",
   text:
     "With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.",
-  values: [{ icon, title, subtitle }],
+  values: [],
 };
 
 export const serviceData = {
@@ -83,14 +84,14 @@ export const contactData = {
 };
 
 export const footerData = {
+  title: 'Barberi z Trnavy',
   items: [
-    { href: "/", name: "Domov" },
-    { href: "/about", name: "O nás" },
-    { href: "/services", name: "Ponuka" },
-    { href: "/barbers", name: "Barberi" },
-  ],
-  buttons: [
-    { href: "/booking", name: "Rezervácia" },
-    { href: "/contact", name: "Kontakt" },
+    { href: "#home", name: "Domov" },
+    { href: "#about", name: "O nás" },
+    { href: "#services", name: "Ponuka" },
+    { href: "#barbers", name: "Barberi" },
+    { href: "#booking", name: "Rezervácia" },
+    { href: "#contact", name: "Kontakt" },
   ],
 };
+
