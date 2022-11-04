@@ -2,7 +2,7 @@ import ServiceCard from "../components/ServiceCard";
 
 const Services = () => {
   return (
-    <div className="section">
+    <div id='services' className="section">
       <h1>Services</h1>
       <div className="intro">
         <h2 className="subtitle"></h2>
