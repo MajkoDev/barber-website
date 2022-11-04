@@ -1,13 +1,18 @@
-import Form from '../components/Form'
+import Form from "../components/Form";
 
 const Booking = () => {
-    return (
-      <div>
-        <h1 className="text-5xl mb-6 font-extralight">Booking Section</h1>
-        <Form />
+  return (
+    <div id='booking' className="section">
+      <h1 className="">Booking Section</h1>
+      <div className="container">
+        <h2 className="subtitle"></h2>
+        <h1 className="title"></h1>
       </div>
-    );
-  };
-  
-  export default Booking;
-  
+
+
+      <Form />
+    </div>
+  );
+};
+
+export default Booking;
