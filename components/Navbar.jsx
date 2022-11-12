@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <div className="py-4 sticky top-0 z-40 backdrop-blur transition-colors duration-300 bg-white/90 supports-backdrop-blur:bg-white/60 dark:bg-transparent lg:border-b lg:border-slate-900/10 dark:border-slate-50/[0.06]">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
         <div className="relative flex justify-between">
           {/* LOGO */}
           <div className="flex items-center md:gap-x-12 py-1">
@@ -13,7 +13,7 @@ const Navbar = () => {
               Barber
             </a>
           </div>
-
+          
           {/* MENU LINKS */}
           <div className="hidden md:flex md:gap-x-6 items-center"  >
             <a href="/#about" className=" rounded-lg py-1 px-2 text-md text-slate-700 hover:bg-slate-100 hover:text-slate-900 hidden lg:block" >
