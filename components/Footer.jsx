@@ -3,8 +3,9 @@ import { footerData } from "../pages/data";
 const Footer = () => {
   const { title, items } = footerData;
 
+  
   return (
-    <footer className="bg-gray-600 text-amber-50">
+    <footer className=" bg-gray-600 text-amber-50">
       <div className="flex flex-row mx-3 pt-4">
         <h2 className="text-3xl font-semibold mb-4 ">{title}</h2>
       </div>
