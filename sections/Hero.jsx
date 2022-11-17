@@ -1,12 +1,11 @@
+
 import { heroData } from "../pages/data";
-import Video from "../components/Video";
 
 const Hero = () => {
   const { title, subtitle, btnPrimaryText, btnSecondaryText } = heroData;
 
   return (
-    <div className="mx-auto max-w-7xl section bg-gray-300" id="#hero">
-
+    <div className="mx-auto max-w-7xl section h-[80vh] bg-gray-800" id="#hero">
 
         <h1 className="mx-auto max-w-4xl font-display text-[3rem] sm:text-7xl font-bold tracking-tight text-slate-900">{title}</h1>
         
@@ -16,8 +15,6 @@ const Hero = () => {
           <button className="m-2 items-center justify-center rounded-full py-2 px-4 text-sm">{btnPrimaryText}</button>
           <button className="m-2 items-center justify-center rounded-full py-2 px-4 text-sm">{btnSecondaryText}</button>
         </div>
-      
-
 
     </div>
   );
