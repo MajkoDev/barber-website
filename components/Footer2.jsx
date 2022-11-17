@@ -4,9 +4,9 @@ const Footer2 = () => {
   const { title, items } = footerData;
 
   return (
-    <footer id="footer">
+    <footer id="footer"  >
       
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mt-6">
         <h2 className="text-2xl">{title}</h2>
       </div>
 
