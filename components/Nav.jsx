@@ -27,9 +27,9 @@ const Nav = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
+      className="fixed left-0 top-0 w-full z-10 ease-in duration-300 shadow-lg"
     >
-      <div className="max-w-[1240px] m-auto flex justify-between items-center p-2 text-white">
+      <div className="max-w-[1240px] mx-3 m-auto flex justify-between items-center p-2 text-white">
         <Link href="/">
           <h1 style={{ color: `${textColor}` }} className="font-bold text-2xl">
             Barber
