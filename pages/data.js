@@ -20,10 +20,9 @@ export const navButton = {
 
 export const heroData = {
   title: "trnavsky barber",
-  subtitle:
-    "We’re different. Flex is the only saas business platform that lets you run your business on one platform, seamlessly across all digital channels.",
-  btnPrimaryText: "zisti viac o nás",
-  btnSecondaryText: "cenník",
+  subtitle: "Klasický aj moderný účes - tam, kďe sa stretáva tradičné remeslo s modernými šlýlom a módou",  
+  btnPrimaryText: "Zisti Viac",
+  btnSecondaryText: "Cenník",
 };
 
 export const aboutData = {
