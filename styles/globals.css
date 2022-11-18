@@ -8,6 +8,10 @@ html {
   font-family: "Poppins", "sans-serif";
 }
 
+.custom-img{
+  background-image: url('../public/images/barber1.jpg') 
+}
+
 .section {
-  @apply flex flex-col h-screen justify-center items-center;
+  @apply flex flex-col justify-center items-center;
 }
