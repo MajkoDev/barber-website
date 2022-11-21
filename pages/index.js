@@ -22,7 +22,7 @@ export default function Home() {
       {/* HERO */}
       <div
         id="#hero"
-        className="section h-[150vh] flex items-center justify-center bg-fixed bg-center bg-cover custom-img"
+        className="section h-[100vh] flex items-center justify-center bg-fixed bg-center bg-cover custom-img"
       >
          <h1 className="mx-auto max-w-4xl font-display text-[3rem] sm:text-7xl font-bold tracking-tight text-white">
           {title}
@@ -53,6 +53,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+
 
 
 
