@@ -12,6 +12,10 @@ html {
   background-image: url('../public/images/barber1.jpg') 
 }
 
+.about-img{
+  background-image: url('../public/images/barber5.jpg') 
+}
+
 .section {
   @apply flex flex-col justify-center items-center;
 }
