@@ -15,6 +15,8 @@ import OtherCard from "../components/OtherCard";
 
 import barger5 from "../public/images/barber5.jpg";
 
+import Contact from "./Contact"
+
 export default function Home() {
   // Data
   const { title, subtitle, btnPrimaryText, btnSecondaryText } = heroData;
@@ -40,7 +42,12 @@ export default function Home() {
         <h5 className="bg-black text-white text-xl font-semibold">About</h5>
 
         <div className="flex md:flex-row flex-col-reverse justify-center items-center">
-          <div className="  m-4 box-content h-32 w-32 bg-black"></div>
+
+
+        <div class="w-full lg:w-1/2 lg:px-8">
+          <div class="bg-gray-400 w-full h-72 rounded-lg"></div>
+        </div>
+
           {/*
           <div className="container justify-center items-center flex">
 
@@ -151,6 +158,11 @@ export default function Home() {
           <Form />
         </div>
       </div>
+
+
+
+
+      
 
       {/* CONTACT */}
       <div id="contact" className="section py-24 min-h-[70vh] ">
