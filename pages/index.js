@@ -14,8 +14,9 @@ import Image from "next/image";
 import OtherCard from "../components/OtherCard";
 
 import barger5 from "../public/images/barber5.jpg";
+import Contact from "../sections/contact/Contact";
 
-import Contact from "./Contact"
+
 
 export default function Home() {
   // Data
@@ -159,42 +160,8 @@ export default function Home() {
         </div>
       </div>
 
-
-
-
-      
-
       {/* CONTACT */}
-      <div id="contact" className="section py-24 min-h-[70vh] ">
-        <h5 className="bg-black text-white text-xl font-semibold">Contact</h5>
-
-        <div className="bg-gray-50 section">
-          <div className="intro container mt-5 px-14 pb-6 text-center">
-            <h2 className="subtitle text-sm font-bold ">KONTAKT</h2>
-            <h1 className="title text-2xl font-extralight mb-2">
-              Ako sa k nám dostanente?
-            </h1>
-            <p className="description text-sm font-semibold">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div className="options bg-slate-200 container justify-center flex flex-2 flex-wrap">
-            <div className="m-4 px-24 p-6 bg-slate-500 text-white font-semibold phone">
-              Phone
-            </div>
-            <div className="m-4 px-24 p-6 bg-slate-500 text-white font-semibold mail">
-              Email
-            </div>
-            <div className="m-4 px-24 p-6 bg-slate-500 text-white font-semibold socials">
-              Socials
-            </div>
-          </div>
-          <Map />
-        </div>
-      </div>
+      <Contact />
     </>
   );
 }
