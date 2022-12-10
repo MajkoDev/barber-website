@@ -19,6 +19,8 @@ import Contact from "../sections/contact/Contact";
 import About_v1 from "../sections/about/About_v1";
 import About_v2 from "../sections/about/About_v2";
 
+import SectionTitle from "./SectionTitle";
+
 export default function Home() {
   // Data
   const { title, subtitle, btnPrimaryText, btnSecondaryText } = heroData;
@@ -39,8 +41,12 @@ export default function Home() {
       </div>
 
       {/* ABOUT */}
-      <About_v2 />
-      <section class="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-32">
+      <section
+        id="about"
+        class="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24"
+      >
+        <SectionTitle>O nás</SectionTitle>
+
         <div class="flex flex-col md:flex-row lg:-mx-8">
           <div class="w-full lg:w-1/2 lg:px-8">
             <h6 class="text-sm uppercase font-semibold tracking-widest">
@@ -67,12 +73,13 @@ export default function Home() {
           </div>
         </div>
       </section>
-      
+
+      <About_v2 />
+
       {/* SERVICES */}
       <div id="services" className="section py-24 min-h-[70vh] bg-slate-100">
-        <h5 className="bg-black text-white text-xl font-semibold">Services</h5>
+        <SectionTitle>Služby & Cenník</SectionTitle>
 
-        <h1 className="my-4 font-semibold text-5xl italic">Services</h1>
         <div className="intro">
           <h2 className="subtitle"></h2>
           <h1 className="title"></h1>
@@ -90,7 +97,7 @@ export default function Home() {
         id="barbers"
         className="flex flex-col  items-center bg-gray-50 py-24 min-h-[70vh] justify-start"
       >
-        <h5 className="bg-black text-white text-xl font-semibold">Barbers</h5>
+        <SectionTitle>Barberi</SectionTitle>
 
         <h1 className="text-5xl font-extralight mb-6">Barbers Section</h1>
         <div className="intro">
@@ -105,11 +112,9 @@ export default function Home() {
         </div>
       </div>
 
-
-
       {/* BOKING */}
       <div id="booking" className="section py-2 min-h-[70vh]">
-        <h5 className="bg-black text-white text-xl font-semibold">Booking</h5>
+        <SectionTitle>Rezervácia</SectionTitle>
 
         <div className="section  bg-slate-100">
           <h1 className="font-bold text-2xl mb-4">Booking Section</h1>
