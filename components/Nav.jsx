@@ -76,33 +76,33 @@ const Nav = () => {
           <ul>
             <li
               onClick={handleNav}
-              className="p-4 text-3xl hover:text-gray-500"
+              className="p-4 text-3xl text-white  hover:text-gray-500"
             >
-              <Link href="/#about">O nás</Link>
+              <a href="/#about">O nás</a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-3xl hover:text-gray-500"
             >
-              <Link href="/#services">Služby & Cenník</Link>
+              <a href="/#services">Služby & Cenník</a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-3xl hover:text-gray-500"
             >
-              <Link href="/#booking">Rezervácia</Link>
+              <a href="/#booking">Rezervácia</a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-3xl hover:text-gray-500"
             >
-              <Link href="/#barbers">Barberi</Link>
+              <a href="/#barbers">Barberi</a>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-3xl hover:text-gray-500"
             >
-              <Link href="/#contact">Kontakt</Link>
+              <a href="/#contact">Kontakt</a>
             </li>
           </ul>
         </div>
