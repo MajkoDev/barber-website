@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <>
-      {/* HERO */}
+      {/* ====================================== HERO ============================================================================ */}
       <div
         id="#hero"
         className="section h-[100vh] flex items-center justify-center bg-fixed bg-center bg-cover custom-img"
@@ -35,27 +35,42 @@ export default function Home() {
         <h1 className="mx-auto max-w-4xl font-display text-[3rem] sm:text-7xl font-bold tracking-tight text-white">
           {title}
         </h1>
-        <p className="mx-auto mt-6 px-6 max-w-2xl text-lg tracking-tight text-slate-600 text-center">
+        <p className="mx-auto mt-6 px-6 max-w-2xl text-xl tracking-tight text-slate-300 text-center">
           {subtitle}
         </p>
+
+        <div className="mt-3 flex md:flex-row">
+          <button className="m-3 px-9 py-3 text-white font-semibold text-lg border-2 hover:bg-white hover:text-black">
+            <a href="#services">Naša Ponuka</a>
+          </button>
+          <button className="m-3 px-9 py-3 text-white font-semibold text-lg border-2 hover:bg-white hover:text-black">
+            <a href="#contact">Kde nás nájdete?</a>
+          </button>
+        </div>
       </div>
 
-      {/* ABOUT */}
+
+
+
+
+      {/* ====================================== ABOUT ============================================================================ */}
       <section
         id="about"
-        class="relative bg-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24"
+        class="relative bg-slate-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-24 
+        md:h-[100vh]"
       >
         <SectionTitle>O nás</SectionTitle>
 
         <div class="flex flex-col md:flex-row lg:-mx-8">
-          <div class="w-full lg:w-1/2 lg:px-8">
-            <h6 class="text-sm uppercase font-semibold tracking-widest">
+          <div class="w-full lg:w-1/2 lg:px-8 flex flex-col justify-center mr-2 text-center md:text-left">
+
+            <h6 class="text-xs md:text-sm uppercase font-semibold tracking-widest mt-2">
               Patient testimonials
             </h6>
-            <h2 class="text-3xl leading-tight font-bold mt-4">
+            <h2 class=" text-3xl leading-tight font-bold mt-4 mb-2">
               Why choose the Mesothelioma Center?
             </h2>
-            <p class="mt-2 leading-relaxed">
+            <p class="mt-2 leading-relaxed pb-4 font-light md:font-normal">
               Aenean ut tellus tellus. Suspendisse potenti. Nullam tincidunt
               lacus tellus, sed aliquam est vehicula a. Pellentesque consectetur
               condimentum nulla, eleifend condimentum purus vehicula in. Donec
@@ -65,18 +80,16 @@ export default function Home() {
               faucibus mi.
             </p>
           </div>
-          <div class="w-full lg:w-1/2 lg:px-8">
-            <div class="bg-gray-400 w-full h-72 rounded-lg"></div>
-            <p class="italic text-sm mt-2 text-right">
-              Aenean ante nisi, gravida non mattis semper.
-            </p>
+          <div class="w-full lg:w-1/2 lg:px-8 p-4 md:p-0">
+            <div class="about-img bg-center bg-cover h-[32rem] rounded-lg"></div>
+            
           </div>
         </div>
       </section>
 
       <About_v2 />
 
-      {/* SERVICES */}
+      {/* ====================================== SERVICES ============================================================================ */}
       <div id="services" className="section py-24 min-h-[70vh] bg-slate-100">
         <SectionTitle>Služby & Cenník</SectionTitle>
 
@@ -92,7 +105,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* BARBERS */}
+      {/* ====================================== BARBERS ============================================================================ */}
       <div
         id="barbers"
         className="flex flex-col  items-center bg-gray-50 py-24 min-h-[70vh] justify-start"
@@ -112,7 +125,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* BOKING */}
+      {/* ====================================== BOKING ============================================================================ */}
       <div id="booking" className="section py-2 min-h-[70vh]">
         <SectionTitle>Rezervácia</SectionTitle>
 
@@ -237,7 +250,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* CONTACT */}
+      {/* ====================================== CONTACT ============================================================================ */}
       <Contact />
     </>
   );
