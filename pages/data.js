@@ -20,7 +20,8 @@ export const navButton = {
 
 export const heroData = {
   title: "trnavsky barber",
-  subtitle: "Klasický aj moderný účes - tam, kďe sa stretáva tradičné remeslo s modernými šlýlom a módou",  
+  subtitle:
+    "Klasický aj moderný účes - tam, kďe sa stretáva tradičné remeslo s modernými šlýlom a módou",
   btnPrimaryText: "Zisti Viac",
   btnSecondaryText: "Cenník",
 };
@@ -41,20 +42,102 @@ export const valueData = {
   values: [],
 };
 
+// ============================================ SERVICES
+
 export const serviceData = {
-  subtitle: "services",
-  title: "Join our team",
+  title: "Služby & Cenník",
   text:
     "Our philosophy is simple — hire a team of diverse, passionate people and foster a culture that empowers you to do you best work.",
+};
+
+
+
+
+
+
+
+export const hairServices = {
   items: [
     {
       title: "Pánsky strih",
-      price: "15.00 €",
-      time: "30-60 min.",
-      description: "klasický pánsky strih, strihanie nožnicami, strojčekom",
+      price: "25.00 €",
+      time: "30 min",
+      description: "Klasický pánsky strih, strihanie nožnicami, strojčekom",
+    },
+    {
+      title: "Pánsky strih dlhé vlasy",
+      price: "30.00 €",
+      time: "40 min.",
+      description:
+        "Klasický pánsky strih dlhých vlasov, prevážne strihanie nožnicami",
+    },
+    {
+      title: "Junior strih",
+      price: "20.00 €",
+      time: "25 min.",
+      description: "Strih vlasov do 12 rokov (strojčekom a nožnicami)",
+    },
+    {
+      title: "Holenie hlavy",
+      price: "20.00 €",
+      time: "20 min.",
+      description: "Holenie britvou alebo shaverom",
     },
   ],
 };
+
+export const beardServices = {
+  items: [
+    {
+      title: "Úprava brady",
+      price: "20.00 €",
+      time: "15 min",
+      description: "Úprava brady (strojčekom alebo britvou) a umytie brady",
+    },
+    {
+      title: "Úprava dlhej brady",
+      price: "25.00 €",
+      time: "20 min",
+      description: "Úprava brady nad 5cm (strojčekom a britvou) s umytím brady",
+    },
+    {
+      title: "Holenie brady",
+      price: "20.00 €",
+      time: "10 min",
+      description: "Oholenie celej brady britvou",
+    },
+  ],
+};
+
+export const completeServices = {
+  items: [
+    {
+      title: "Kombo",
+      price: "40.00 €",
+      time: "50 min",
+      description: "Úprava brady a vlasov (strojčekom, nožnicami a britvou) a umytie hlavy",
+    },
+    {
+      title: "Kombo Long",
+      price: "50.00 €",
+      time: "55 min",
+      description: "Úprava brady nad 5cm a kratkych vlasov (strojčekom, nožnicami a britvou) a umytie hlavy",
+    },
+  ],
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export const barberData = {
   subtitle: "barberi",
@@ -63,12 +146,25 @@ export const barberData = {
     "Highly professional and capable of running your business across all digital channels.",
   persons: [
     {
-      name: "Macauley Herring",
+      name: "Andrej Radovan",
+      subtitle: "Hlavný barber",
+      instagram: "https://www.instagram.com/",
+      facebook: 'https://sk-sk.facebook.com/'
+    },
+    {
+      name: "Jakub Novotný",
       subtitle: "Externý barber",
       instagram: "https://www.instagram.com/",
-    },
+      facebook: 'https://sk-sk.facebook.com/'
+    }
   ],
 };
+
+
+
+
+
+
 
 export const contactData = {
   subtitle: "contact",
@@ -83,7 +179,7 @@ export const contactData = {
 };
 
 export const footerData = {
-  title: 'Barberi z Trnavy',
+  title: "Barberi z Trnavy",
   items: [
     { href: "#home", name: "Domov" },
     { href: "#about", name: "O nás" },
@@ -93,4 +189,3 @@ export const footerData = {
     { href: "#contact", name: "Kontakt" },
   ],
 };
-

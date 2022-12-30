@@ -1,17 +1,15 @@
 // Components
-import ServiceCard from "../components/ServiceCard";
 import BarberCard from "../components/BarberCard";
 import Form from "../components/Form";
 import Map from "../components/Map";
 
 // Data
-import { heroData } from "../pages/data";
+import { heroData, serviceData } from "../pages/data";
 
 import barberImg from "../public/images/barber4.jpg";
 
 import Link from "next/link";
 import Image from "next/image";
-import OtherCard from "../components/OtherCard";
 
 import barger5 from "../public/images/barber5.jpg";
 
@@ -20,6 +18,14 @@ import About_v1 from "../sections/about/About_v1";
 import About_v2 from "../sections/about/About_v2";
 
 import SectionTitle from "./SectionTitle";
+
+// Carts
+import ServiceCard from "../components/ServiceCard";
+import OtherCard from "../components/OtherCard";
+
+import ServiceHair from "../components/cards/ServiceHair";
+import ServiceBeard from "../components/cards/ServiceBeard";
+import ServiceComplete from "../components/cards/ServiceComplete";
 
 export default function Home() {
   // Data
@@ -49,10 +55,6 @@ export default function Home() {
         </div>
       </div>
 
-
-
-
-
       {/* ====================================== ABOUT ============================================================================ */}
       <section
         id="about"
@@ -63,11 +65,10 @@ export default function Home() {
 
         <div class="flex flex-col md:flex-row lg:-mx-8">
           <div class="w-full lg:w-1/2 lg:px-8 flex flex-col justify-center mr-2 text-center md:text-left">
-
             <h6 class="text-xs md:text-sm uppercase font-semibold tracking-widest mt-2">
               Patient testimonials
             </h6>
-            <h2 class=" text-3xl leading-tight font-bold mt-4 mb-2">
+            <h2 class="text-3xl leading-tight font-bold mt-4 mb-2">
               Why choose the Mesothelioma Center?
             </h2>
             <p class="mt-2 leading-relaxed pb-4 font-light md:font-normal">
@@ -82,28 +83,38 @@ export default function Home() {
           </div>
           <div class="w-full lg:w-1/2 lg:px-8 p-4 md:p-0">
             <div class="about-img bg-center bg-cover h-[32rem] rounded-lg"></div>
-            
           </div>
         </div>
       </section>
 
-      <About_v2 />
-
       {/* ====================================== SERVICES ============================================================================ */}
       <div id="services" className="section py-24 min-h-[70vh] bg-slate-100">
-        <SectionTitle>Služby & Cenník</SectionTitle>
-
-        <div className="intro">
-          <h2 className="subtitle"></h2>
-          <h1 className="title"></h1>
-          <p className="description"></p>
-        </div>
-        <div className="not-prose my-8 grid grid-cols-1 gap sm:grid-cols-2">
-          <OtherCard />
-          <OtherCard />
-          <OtherCard />
+        <SectionTitle>{serviceData.title}</SectionTitle>
+        <p className="mx-auto px-2 max-w-2xl md:text-lg tracking-tight text-slate-800 text-center">
+          {serviceData.text}
+        </p>
+        <div className="flex flex-row flex-wrap mt-4 justify-center">
+          <ServiceHair />
+          <div>
+            <ServiceBeard />
+            <ServiceComplete />
+          </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       {/* ====================================== BARBERS ============================================================================ */}
       <div
@@ -112,18 +123,26 @@ export default function Home() {
       >
         <SectionTitle>Barberi</SectionTitle>
 
-        <h1 className="text-5xl font-extralight mb-6">Barbers Section</h1>
         <div className="intro">
           <h2 className="subtitle"></h2>
           <h1 className="title"></h1>
           <p className="description"></p>
         </div>
-        <div className="barbers">
+        <div className="flex flex-wrap md:flex-row flex-col">
           <BarberCard />
           <BarberCard />
           <BarberCard />
         </div>
       </div>
+
+
+
+
+
+
+
+
+
 
       {/* ====================================== BOKING ============================================================================ */}
       <div id="booking" className="section py-2 min-h-[70vh]">

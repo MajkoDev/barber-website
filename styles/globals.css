@@ -8,15 +8,21 @@ html {
   font-family: "Poppins", "sans-serif";
 }
 
-.custom-img{
-  background-image: url('../public/images/barber1.jpg') 
+.custom-img {
+  background-image: url("../public/images/barber1.jpg");
 }
-
-.about-img{
-  background-image: url('../public/images/barber5.jpg') 
+.about-img {
+  background-image: url("../public/images/barber5.jpg");
 }
-
-
+.profile-1 {
+  background-image: url("../public/images/profile1.jpg");
+}
+.profile-2 {
+  background-image: url("../public/images/profile2.jpg");
+}
+.profile-3 {
+  background-image: url("../public/images/profile3.jpg");
+}
 
 .section {
   @apply flex flex-col justify-center items-center;
