@@ -1,6 +1,6 @@
 const OtherCard = () => {
   return (
-    <section class="m-4 flex flex-col overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5 bg-white">
+    <section class="m-4 flex flex-col  w-[360px] overflow-hidden rounded-3xl p-6 shadow-lg shadow-gray-900/5 bg-white">
       <h3 class="flex items-center text-sm font-semibold text-gray-900">
         <svg
           viewBox="0 0 40 40"
