@@ -27,3 +27,5 @@ html {
 .section {
   @apply flex flex-col justify-center items-center;
 }
+
+

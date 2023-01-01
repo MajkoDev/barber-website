@@ -2,6 +2,17 @@
 
 // import icons
 
+
+export const sectionContent = {
+  about: [{title: 'O nás', subtitle: ''}],
+  services: [{title: 'Služby & Cenník', subtitle: ''}],
+  barbers: [{title: 'Barberi', subtitle: ''}],
+  booking: [{title: 'Rezervácia', subtitle: ''}],
+  contact: [{title: 'Kontaktujte nás', subtitle: ''}]
+}
+
+
+
 export const navData = {
   items: [
     { href: "/", name: "Domov" },
@@ -140,8 +151,8 @@ export const completeServices = {
 
 
 export const barberData = {
-  subtitle: "barberi",
-  title: "Meet our team",
+  subtitle: "spoznajte náš tím",
+  title: "Barberi",
   text:
     "Highly professional and capable of running your business across all digital channels.",
   persons: [
@@ -177,6 +188,12 @@ export const contactData = {
     { title: "socials", instagram: "https://www.instagram.com/" },
   ],
 };
+
+
+
+
+
+
 
 export const footerData = {
   title: "Barberi z Trnavy",
