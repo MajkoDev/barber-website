@@ -12,10 +12,10 @@ const Data = () => {
                 ZAVOLAJTE NÁM
               </h2>
               <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-2">
-                Telefónne číslo{" "}
+                Telefónne číslo
               </h1>
-              <p class="leading-relaxed text-md mb-4 ">
-                Môžete nám kedykoľvek zavolať a <br /> dohonúť si termín priamo.
+              <p class="leading-relaxed text-md mb-4 w-24">
+                Môžete nám kedykoľvek zavolať a dohonúť si termín priamo.
               </p>
 
               <a href="text-green-500 form-semibold text-3xl m-2">0000 333 222</a>
@@ -75,10 +75,10 @@ const Data = () => {
                 ZAVOLAJTE NÁM
               </h2>
               <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-2">
-                Telefónne číslo{" "}
+                Telefónne číslo
               </h1>
-              <p class="leading-relaxed text-md mb-4 ">
-                Môžete nám kedykoľvek zavolať a <br /> dohonúť si termín priamo.
+              <p class="leading-relaxed text-md mb-4 w-24">
+                Môžete nám kedykoľvek zavolať a dohonúť si termín priamo.
               </p>
 
               <a href="text-green-500 form-semibold text-3xl m-2">0000 333 222</a>
