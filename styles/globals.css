@@ -23,6 +23,9 @@ html {
 .profile-3 {
   background-image: url("../public/images/profile3.jpg");
 }
+.reservation-img{
+  background-image: url("../public/images/barber3.jpg")
+}
 
 .section {
   @apply flex flex-col justify-center items-center;
