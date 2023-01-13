@@ -13,6 +13,7 @@ import Contact from "../sections/contact/Contact";
 import About_v1 from "../sections/about/About_v1";
 import About_v2 from "../sections/about/About_v2";
 import SectionTitle from "./SectionTitle";
+import { BsFillTelephoneFill, BsPhoneFill } from "react-icons/bs";
 
 // Carts
 import ServiceCard from "../components/ServiceCard";
@@ -189,14 +190,17 @@ export default function Home() {
       =
       =
       ================ BOKING ============================================================================ */}
-      <div id="booking" className="section py-2 min-h-[40vh] reservation-img bg-fixed bg-center bg-cover opacity-90	hover:opacity-95">
+      <div
+        id="booking"
+        className="section py-2 min-h-[40vh] reservation-img bg-fixed bg-center bg-cover opacity-90	hover:opacity-95"
+      >
         <h1 class="mb-4 text-4xl font-extrabold text-gray-600 md:text-5xl lg:text-6xl w-full flex justify-center">
           <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
             Rezervácia
           </span>
         </h1>
 
-        <button className="m-3 px-9 py-3 font-semibold text-lg border-2 bg-[#e4e4e7] hover:bg-[#fafafa] text-black">
+        <button className="m-4 px-12 py-3 font-semibold text-lg border-2 border-[#fafafa] bg-[#e4e4e7] hover:bg-[#fafafa]  text-black">
           <a href="#contact"> Objednaj sa online</a>
         </button>
       </div>
@@ -222,6 +226,29 @@ export default function Home() {
       ================ CONTACT ============================================================================ */}
       <Contact />
       {/* ----------------------------------------------- */}
+
+      <div className="m-5 p-5 min-h-[100px] flex flex-row">
+        
+
+        
+
+        <div className="p-12 bg-gradient-to-r from-sky-500 to-indigo-500">
+          
+        </div>
+      </div>
+
+      <div>
+        
+      </div>
+      <div>
+        
+      </div>
+      <div>
+       
+      </div>
+      <div>
+      
+      </div>
     </>
   );
 }
