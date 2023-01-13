@@ -15,7 +15,9 @@ const Contact = () => {
       </div>
       {/* MAP */}
       <Map />
+      {/* 
       <Maps />
+      */}
     </>
   );
 };
